@@ -12,7 +12,7 @@ public class Patient {
         ID++;
     }
     public Patient() {
-        
+
     }
     public String getName() {
         return name;
@@ -34,5 +34,9 @@ public class Patient {
     }
     public void setHeight(int height) {
         this.height = height;
+    }
+    @Override
+    public String toString() {
+        return "Name: " + name + " Age: " + age + " Height: " + height + " ID: " + ID;
     }
 }
