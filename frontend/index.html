@@ -6,17 +6,17 @@
     <style>
         body { font-family:Arial, Helvetica, sans-serif; margin: 35px; background-color: blue;}
         .container {max-width: 450px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0,1); }
-        input {display: block; width: 100%; margin-bottom: 10px; padding: 8px; }
-        button {width: 100%; padding: 8px; background: white; color: red; border: none; cursor: pointer; }
+        input {display: block; width: 97%; margin-bottom: 10px; padding: 8px; }
+        button {width: 100%; padding: 10px; background: white; color: red; border: none; cursor: pointer; }
         #response { margin-top: 20px; padding: 10px; border: 1px solid #ccc; display: none; }
     </style>
 </head>
 <body>
     <div class="cointainer">
         <h3>Patient</h3>
-        <input type="text" id="name" placeholder="Name">
-        <input type="number" id="age" placeholder="Age">
-        <input type="number" id="height" placeholder="Height">
+        <input type="text" id="name" placeholder="Put your name here:">
+        <input type="number" id="age" placeholder="Put your age here:">
+        <input type="number" id="height" placeholder="Put your height here:">
         <button onclick="sendData()">Sending Patient Data</button>
         <div id="response"></div>
     </div>
