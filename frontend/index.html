@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Patient - Data</title>
+    <title>Patient</title>
     <style>
         body { font-family:Arial, Helvetica, sans-serif; margin: 35px; background-color: blue;}
         .container {max-width: 450px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0,1); }
@@ -11,3 +11,15 @@
         #response { margin-top: 20px; padding: 10px; border: 1px solid #ccc; display: none; }
     </style>
 </head>
+<body>
+    <div class="cointainer">
+        <h3>Patient</h3>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="age" placeholder="Age">
+        <input type="number" id="height" placeholder="Height">
+        <button onclick="sendData()">Sending Patient Data</button>
+        <div id="response"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
