@@ -4,12 +4,14 @@ public class Patient {
     private String name;
     private int age;
     private int height;
-    private static int ID;
+    private int ID;
+    private static int count = 0;
     public Patient(String name, int age, int height) {
         this.name = name;
         this.age = age;
         this.height = height;
-        ID++;
+        count++;
+        this.ID = count;
     }
     public Patient() {
 
@@ -23,7 +25,7 @@ public class Patient {
     public int getHeight() {
         return height;
     }
-    public static int getID() {
+    public int getID() {
         return ID;
     }
     public void setName(String name) {
