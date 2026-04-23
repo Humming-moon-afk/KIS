@@ -1,4 +1,4 @@
-package Backend;
+package backend;
 
 public class Patient {
     private String name;
