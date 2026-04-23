@@ -11,4 +11,5 @@ function sendData() {
 
     console.log("Sending Data", patientData);
 
+    
 }
