@@ -9,5 +9,6 @@ function sendData() {
         height: parseInt(heightInput.value)
     };
 
-    
+    console.log("Sending Data", patientData);
+
 }
