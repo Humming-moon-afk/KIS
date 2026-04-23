@@ -1,13 +1,13 @@
-package com.example.hospital_backend;
+package com.example.hospital;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HospitalBackendApplication {
+public class HospitalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HospitalBackendApplication.class, args);
+		SpringApplication.run(HospitalApplication.class, args);
 	}
 
 }

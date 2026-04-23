@@ -1,4 +1,4 @@
-package backend;
+package com.example.hospital;
 
 public class Patient {
     private String name;
