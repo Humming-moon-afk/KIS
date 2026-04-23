@@ -23,4 +23,13 @@ public class Patient {
     public static int getID() {
         return ID;
     }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setHeight(int height) {
+        this.height = height;
+    }
 }
