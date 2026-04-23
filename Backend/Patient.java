@@ -11,4 +11,16 @@ public class Patient {
         this.height = height;
         ID++;
     }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public int getHeight() {
+        return height;
+    }
+    public static int getID() {
+        return ID;
+    }
 }
